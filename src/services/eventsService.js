@@ -22,4 +22,13 @@ exports.create = (data) => {
   return event;
 };
 
-exports.list = () => db.events;
+exports.list = () => {
+  // return events with resolved person names for assignments
+  return db.events.map(ev => {
+    const resolvedAssignments = (ev.assignments || []).map(a => {
+      const p = db.people.find(x => x.id === a.personId);
+      return { personId: a.personId, personName: p ? p.name : null };
+    });
+    return { ...ev, assignments: resolvedAssignments };
+  });
+};
