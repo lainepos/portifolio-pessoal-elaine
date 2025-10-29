@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const db = require('../db/memory');
+const { db, save } = require('../db/memory');
 
 const SECRET = process.env.JWT_SECRET || 'dev_secret';
 
@@ -28,5 +28,6 @@ exports.createUser = (username, password, person) => {
     }
     user.personId = p.id;
   }
+  save();
   return user;
 };

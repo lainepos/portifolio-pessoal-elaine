@@ -1,4 +1,4 @@
-const db = require('../db/memory');
+const { db, save } = require('../db/memory');
 const { v4: uuidv4 } = require('uuid');
 
 exports.create = (data) => {
@@ -14,6 +14,7 @@ exports.create = (data) => {
       }
     }
   }
+  save();
   return person;
 };
 

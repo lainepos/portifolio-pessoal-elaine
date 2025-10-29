@@ -1,4 +1,4 @@
-const db = require('../db/memory');
+const { db, save } = require('../db/memory');
 const { v4: uuidv4 } = require('uuid');
 const dayjs = require('dayjs');
 
@@ -19,6 +19,7 @@ exports.create = (data) => {
 
   const event = { id: uuidv4(), title: data.title, date, ministryId: data.ministryId, assignments: data.assignments || [] };
   db.events.push(event);
+  save();
   return event;
 };
 
@@ -29,6 +30,10 @@ exports.list = () => {
       const p = db.people.find(x => x.id === a.personId);
       return { personId: a.personId, personName: p ? p.name : null };
     });
-    return { ...ev, assignments: resolvedAssignments };
+    const ministry = db.ministries.find(m => m.id === ev.ministryId || m.name === ev.ministryId);
+    const ministryName = ministry ? ministry.name : ev.ministryId;
+    // Provide explicit ministryName while keeping ministryId unchanged.
+    // Keep original id available in `ministryIdRaw` for clients that need it.
+    return { ...ev, ministryIdRaw: ev.ministryId, ministryId: ev.ministryId, ministryName, assignments: resolvedAssignments };
   });
 };

@@ -1,0 +1,340 @@
+{
+  "users": [
+    {
+      "id": "leader1",
+      "username": "leader1",
+      "password": "password",
+      "ministries": [
+        "min1"
+      ]
+    }
+  ],
+  "ministries": [
+    {
+      "id": "min1",
+      "name": "Louvor",
+      "leaders": [
+        "leader1"
+      ],
+      "members": []
+    },
+    {
+      "id": "4c6cf5e3-b5e4-4aec-a874-56d2c6ae53f8",
+      "name": "Farol",
+      "leaders": [
+        "Giulia"
+      ],
+      "members": [
+        "Karine"
+      ]
+    },
+    {
+      "id": "cdcacc87-0d68-457f-a2cc-ed63addcc740",
+      "name": "Acesso",
+      "leaders": [
+        "Regimara"
+      ],
+      "members": [
+        "string"
+      ]
+    },
+    {
+      "id": "2f7322bb-860b-4f33-bf67-8d01cae1b9d6",
+      "name": "Rede",
+      "leaders": [
+        "Leo"
+      ],
+      "members": [
+        "string"
+      ]
+    },
+    {
+      "id": "ceeed540-a6de-4e78-89d7-0ec96448ed35",
+      "name": "Pastoral",
+      "leaders": [
+        "Andre Enrique"
+      ],
+      "members": [
+        "string"
+      ]
+    },
+    {
+      "id": "dd76debe-9d5f-4ac5-a1a7-b615244f6b13",
+      "name": "Servir",
+      "leaders": [
+        "Andre da Silva"
+      ],
+      "members": [
+        "string"
+      ]
+    },
+    {
+      "id": "9f687dcb-34d9-4e25-9dba-0402724202ee",
+      "name": "Vox",
+      "leaders": [
+        "Giow"
+      ],
+      "members": [
+        "string"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "5c34bba1-bba6-43e2-b5c5-39632554abe8",
+      "name": "Karine",
+      "phone": "11988887777",
+      "ministries": [
+        "Farol"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "9a24e65d-2758-4089-98e5-045c35e56988",
+      "name": "Policarpo",
+      "phone": "11988887777",
+      "ministries": [
+        "Servir"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "0979c445-2d9f-4782-8e03-1a778ded9627",
+      "name": "Josi",
+      "phone": "11988887777",
+      "ministries": [
+        "Servir"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "f3712fc5-7ab0-4da8-b4b6-2fb5c2ec0c9b",
+      "name": "Andre Da Silva",
+      "phone": "11988887777",
+      "ministries": [
+        "Pastoral"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "ae15de3c-e80e-491b-a5bc-95df44efb67b",
+      "name": "Andre Henrique",
+      "phone": "11988887777",
+      "ministries": [
+        "Pastoral"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "1116f1b4-50ab-4d76-bd38-51225c99a65d",
+      "name": "Renata",
+      "phone": "11988887777",
+      "ministries": [
+        "Pastoral"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "087ed2cc-8b90-4bcc-99bf-bf454357a55c",
+      "name": "Flavio",
+      "phone": "11988887777",
+      "ministries": [
+        "Louvor"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "77e61aad-3167-4860-ac09-0bc23939ad09",
+      "name": "Michelle",
+      "phone": "11988887777",
+      "ministries": [
+        "Louvor"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "a8bd1e22-b3e1-4d70-af04-7a07e99e729d",
+      "name": "Elaine",
+      "phone": "11988887777",
+      "ministries": [
+        "Louvor"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "002baebb-880d-4091-9a6b-d89b8894e214",
+      "name": "Ari",
+      "phone": "11988887777",
+      "ministries": [
+        "Louvor"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "97581be8-1743-4ae7-a21a-7257dabe4e5c",
+      "name": "Alex",
+      "phone": "11988887777",
+      "ministries": [
+        "Louvor"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "2e7f8c1a-05ce-4144-bce2-5d98e48bab3f",
+      "name": "Samuel",
+      "phone": "11988887777",
+      "ministries": [
+        "Vox"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "ccd590cb-21f8-433a-80af-3f42f7d0f213",
+      "name": "Ana Bea",
+      "phone": "11988887777",
+      "ministries": [
+        "Vox"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "cf26f0da-ac14-433f-a109-93452c3bdc0f",
+      "name": "Murilo",
+      "phone": "11988887777",
+      "ministries": [
+        "Vox"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "7a7d9dd7-d895-4ca1-96ae-b0b85efa12f7",
+      "name": "Giulia",
+      "phone": "11988887777",
+      "ministries": [
+        "Vox"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "11448f80-ee92-4296-8ade-427ba30163e5",
+      "name": "Elaine",
+      "phone": "11988887777",
+      "ministries": [
+        "Vox"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "5234a7c6-e1e6-42b1-80dc-ecd7916385e9",
+      "name": "Italo",
+      "phone": "11988887777",
+      "ministries": [
+        "Vox"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "3a765229-8281-431c-b1d7-8206ced34c27",
+      "name": "Lucca",
+      "phone": "11988887777",
+      "ministries": [
+        "Vox"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "ab5166ad-d39c-4921-9b0b-6fbe05320823",
+      "name": "Regimara",
+      "phone": "11988887777",
+      "ministries": [
+        "Acesso"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "11da3a25-67f4-4980-a9e3-7fbd76c494e2",
+      "name": "Leandro",
+      "phone": "11988887777",
+      "ministries": [
+        "Acesso"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "eff92b60-4f2f-44f4-a50d-c34225b25b96",
+      "name": "Alexandre",
+      "phone": "11988887777",
+      "ministries": [
+        "Servir"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "e2806229-1892-4ff8-acac-6e580c03cc3d",
+      "name": "Ana Celia",
+      "phone": "11988887777",
+      "ministries": [
+        "Servir"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "67d36db0-3371-42b4-8a3a-57252fa4e72f",
+      "name": "Livia",
+      "phone": "11988887777",
+      "ministries": [
+        "Servir"
+      ],
+      "role": "member"
+    },
+    {
+      "id": "75b2ee6c-cfc4-44f6-bfc8-14b5abad82b1",
+      "name": "Livia",
+      "phone": "11988887777",
+      "ministries": [
+        "Rede"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "fd7f025c-3aeb-407f-93a5-4c5bf8cd12b7",
+      "name": "Leo",
+      "phone": "11988887777",
+      "ministries": [
+        "Rede"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "d4a6296b-27a6-49b4-884c-c96fa540e141",
+      "name": "Hoff",
+      "phone": "11988887777",
+      "ministries": [
+        "Louvor"
+      ],
+      "role": "leader"
+    },
+    {
+      "id": "c44dda1b-6cb5-4163-8bdb-9a4dd7ae852f",
+      "name": "Hoff",
+      "phone": "11988887777",
+      "ministries": [
+        "Louvor"
+      ],
+      "role": "member"
+    }
+  ],
+  "events": [
+    {
+      "id": "e2091a24-c54e-46f2-9016-3687fecc3151",
+      "title": "Culto Raizes",
+      "date": "2025-11-01",
+      "ministryId": "dd76debe-9d5f-4ac5-a1a7-b615244f6b13",
+      "assignments": [
+        {
+          "personId": "0979c445-2d9f-4782-8e03-1a778ded9627"
+        }
+      ]
+    }
+  ]
+}
