@@ -50,17 +50,30 @@ Arquivos e pastas principais criados neste projeto (resumo):
 
 Como executar localmente
 ------------------------
-1. Instalar dependências:
+Pré-requisito: o front-end deve estar em execução na porta 4000 (http://localhost:4000).
+
+0. Iniciar o front-end (exemplo)
+
+No diretório do projeto front-end (separado), rode:
+
+```powershell
+npm install
+npm start
+```
+
+1. Instalar dependências do backend:
 
 ```powershell
 npm install
 ```
 
-2. Iniciar o servidor:
+2. Iniciar o servidor backend:
 
 ```powershell
 npm start
 ```
+
+Observação: por padrão o backend está configurado para permitir CORS somente para `http://localhost:4000`. Se o seu front estiver em outra origem, ajuste `src/index.js` ou use `origin: '*'` em desenvolvimento.
 
 O Swagger UI ficará disponível em `http://localhost:3000/api-docs` e a API em `http://localhost:3000/api`.
 
